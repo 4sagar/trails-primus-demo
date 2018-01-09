@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "trails",
+    "trailsjs"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "express": "^5.0.0-alpha.3",
+    "pg": "^7.4.1",
+    "primus": "^7.1.0",
+    "primus-emitter": "^3.1.1",
+    "primus-rooms": "^3.4.1",
+    "trailpack-bootstrap": "^2.0.0",
+    "trailpack-express": "^2.0.3",
+    "trailpack-realtime": "^2.0.0",
+    "trailpack-repl": "^2",
+    "trailpack-router": "^2",
+    "trailpack-sequelize": "^3.0.0",
+    "trails": "^2",
+    "winston": "^2.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-trails": "^2",
+    "mocha": "^3.2.0",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  }
+}
